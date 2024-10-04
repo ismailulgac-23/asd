@@ -47,7 +47,7 @@ const PinView = () => {
                   <button onClick={() => setValue(prev => prev + (8).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>8</button>
                   <button onClick={() => setValue(prev => prev + (9).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>9</button>
 
-                  <button onClick={() => setValue("C")} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-primary font-bold text-3xl rounded-full'>C</button>
+                  <button onClick={() => setValue("")} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-primary font-bold text-3xl rounded-full'>C</button>
                   <button onClick={() => setValue(prev => prev + "0")} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>0</button>
                   <button onClick={() => setValue(prev => prev.slice(0, -1))} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-primary font-bold text-3xl rounded-full flex items-center justify-center'>
                      <Icon icon="el:arrow-left" />

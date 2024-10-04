@@ -1,9 +1,9 @@
 "use client";
-import AdminDashboardView from '$/views/dashboard';
+import Login from '$/views/login';
 import React from 'react'
 
 const AdminIndex = () => {
-  return <AdminDashboardView />
+  return <Login />
 }
 
 export default AdminIndex

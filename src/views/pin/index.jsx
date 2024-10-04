@@ -28,28 +28,28 @@ const PinView = () => {
                   <input type='text' disabled className='h-full ml-5 w-full text-black text-2xl text-center' value={value} />
                   <Link href="/dashboard">
                      <button className='flex-shrink-0 px-3'>
-                        <Icon icon="el:arrow-right" className='text-primary text-4xl' />
+                        <Icon icon="el:arrow-right" className='text-primary text-3xl' />
                      </button>
                   </Link>
                </div>
 
 
                <div className='grid grid-cols-3 gap-3 mt-5'>
-                  <button onClick={() => setValue(prev => prev + (1).toString())} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>1</button>
-                  <button onClick={() => setValue(prev => prev + (2).toString())} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>2</button>
-                  <button onClick={() => setValue(prev => prev + (3).toString())} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>3</button>
+                  <button onClick={() => setValue(prev => prev + (1).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>1</button>
+                  <button onClick={() => setValue(prev => prev + (2).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>2</button>
+                  <button onClick={() => setValue(prev => prev + (3).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>3</button>
 
-                  <button onClick={() => setValue(prev => prev + (4).toString())} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>4</button>
-                  <button onClick={() => setValue(prev => prev + (5).toString())} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>5</button>
-                  <button onClick={() => setValue(prev => prev + (6).toString())} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>6</button>
+                  <button onClick={() => setValue(prev => prev + (4).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>4</button>
+                  <button onClick={() => setValue(prev => prev + (5).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>5</button>
+                  <button onClick={() => setValue(prev => prev + (6).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>6</button>
 
-                  <button onClick={() => setValue(prev => prev + (7).toString())} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>7</button>
-                  <button onClick={() => setValue(prev => prev + (8).toString())} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>8</button>
-                  <button onClick={() => setValue(prev => prev + (9).toString())} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>9</button>
+                  <button onClick={() => setValue(prev => prev + (7).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>7</button>
+                  <button onClick={() => setValue(prev => prev + (8).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>8</button>
+                  <button onClick={() => setValue(prev => prev + (9).toString())} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>9</button>
 
-                  <button onClick={() => setValue("C")} className='border-[5px] h-[82px] flex-shrink-0 border-white text-primary font-bold text-4xl rounded-full'>C</button>
-                  <button onClick={() => setValue(prev => prev + "0")} className='border-[5px] h-[82px] flex-shrink-0 border-white text-white font-bold text-4xl rounded-full'>0</button>
-                  <button onClick={() => setValue(prev => prev.slice(0, -1))} className='border-[5px] h-[82px] flex-shrink-0 border-white text-primary font-bold text-4xl rounded-full flex items-center justify-center'>
+                  <button onClick={() => setValue("C")} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-primary font-bold text-3xl rounded-full'>C</button>
+                  <button onClick={() => setValue(prev => prev + "0")} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-white font-bold text-3xl rounded-full'>0</button>
+                  <button onClick={() => setValue(prev => prev.slice(0, -1))} className='border-[5px] w-[72px] h-[72px] flex-shrink-0 border-white text-primary font-bold text-3xl rounded-full flex items-center justify-center'>
                      <Icon icon="el:arrow-left" />
                   </button>
                </div>

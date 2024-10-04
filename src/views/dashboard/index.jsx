@@ -3,7 +3,7 @@ import React from 'react'
 
 const DashboardView = () => {
    return (
-      <div className='w-screen h-screen bg-[#ebe7f0] overflow-y-auto overflow-x-hidden text-white p-3'>
+      <div className='w-full h-auto bg-[#ebe7f0] overflow-y-auto overflow-x-hidden text-white p-3'>
          <div className='bg-primary text-white rounded-md p-3 mb-5'>
             <div className='flex items-center justify-between'>
                <img src='/logo.png' className='w-[200px]' />
